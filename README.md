@@ -116,6 +116,9 @@ Although I now focus on Python and web development, this project demonstrates my
 
 >🔒 Due to military confidentiality, the detailed implementation of the "Muskat" algorithm used for radio relay line calculations is not available in this repository. This project was developed during my studies at a military academy and includes only the user interface and data entry components.
 
+>⚠️ Some parts of this project (such as station deletion) were left unfinished in code, but the interface design and screenshots have been preserved from my graduation project.
+I decided to upload these components to GitHub as a way to archive and share the original concept, even though not all functionality is implemented in code.
+
 ## ✅ Conclusion
 
 This application solves a time-consuming engineering task — calculating radio relay lines for military stations.  
