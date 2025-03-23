@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #4c4c4c;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <MenuBar layoutY="1.0" prefHeight="26.0" prefWidth="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Файл">
+            <items>
+                  <MenuItem fx:id="CreateProject" mnemonicParsing="false" onAction="#newCreateMethod" text="Создать" />
+                  <MenuItem fx:id="OpenProject" mnemonicParsing="false" onAction="#newOpenMethod" text="Открыть" />
+              <MenuItem fx:id="SaveProject" mnemonicParsing="false" onAction="#newSaveMethod" text="Сохранить" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="exit" mnemonicParsing="false" onAction="#newExitMethod" text="Выйти" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="ЦРРС">
+            <items>
+                  <MenuItem fx:id="createStation" mnemonicParsing="false" onAction="#newCreateStation" text="Добавить станцию" />
+              <MenuItem fx:id="RedactStation" mnemonicParsing="false" onAction="#newRedStation" text="Редактировать ст." />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="deleteStation" mnemonicParsing="false" onAction="#newDelStation" text="Удалить станцию" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>
