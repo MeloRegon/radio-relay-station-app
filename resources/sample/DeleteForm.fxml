@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="sample.DeleteStation"
+            prefWidth="320" prefHeight="220"
+            style="-fx-background-color: #20120F;">
+
+    <children>
+        <Label layoutX="50" layoutY="20" text="Удаление Станции" textFill="#FF0000">
+            <font>
+                <Font name="Impact" size="24.0"/>
+            </font>
+        </Label>
+
+        <Label layoutX="50" layoutY="70" text="Введите название станции" textFill="WHITE">
+            <font>
+                <Font name="System" size="14.0"/>
+            </font>
+        </Label>
+
+        <TextField fx:id="nameStation" layoutX="50" layoutY="95" prefWidth="220"/>
+
+        <Button fx:id="deleteButton"
+                layoutX="110" layoutY="140"
+                text="Удалить"
+                onAction="#deleteStation"
+                style="-fx-background-color: #e25959; -fx-text-fill: white;"/>
+    </children>
+</AnchorPane>
